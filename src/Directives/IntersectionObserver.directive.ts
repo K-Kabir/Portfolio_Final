@@ -18,7 +18,7 @@ export class appIntersectionObserver implements OnInit, AfterViewInit{
 
     ngOnInit(){
         this.scrollWatcher = this.renderer.createElement('div');
-        this.renderer.insertBefore(this.el.nativeElement.parentNode,this.scrollWatcher,this.el.nativeElement);
+        // this.renderer.insertBefore(this.el.nativeElement.parentNode,this.scrollWatcher,this.el.nativeElement);
     }
 
     ngAfterViewInit(): void {
