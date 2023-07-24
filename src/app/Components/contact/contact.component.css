@@ -1,0 +1,42 @@
+.container{
+    background-color: #1a1a1a;
+    padding: 5vh 5vw;
+}
+
+h2{
+    color: white;
+    font-size: 2.2rem;
+    padding-bottom: 2vh;
+}
+
+.form-group{
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.form-group>label{
+    color: white;
+    font-size: 1.2rem;
+    width: 10vw;
+}
+
+.form-group>input{
+    border-radius: 20px;
+    min-width: 300px;
+    padding: 5px;
+    border: none;
+}
+
+textarea{
+    border-radius: 20px;
+    min-width: 500px;
+    min-height: 100px;
+    padding: 5px;
+    border: none;
+}
+
+.submit-btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 10vw;
+}

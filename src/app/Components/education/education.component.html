@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="almas">
+        <div class="edu-container" *ngFor="let edu of education">
+            <i [class]="edu.icon" style="color: #4a83b5;"></i>
+            <div class="content">
+                <span class="heading">{{ edu.heading }}</span>
+                <span class="name">{{ edu.institution }}</span>
+                <span class="division">{{ edu.degree }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="graduation">
+        Graduated with a major in <b>Electrical Engineering</b> and a minor in <b>Computer Engineering</b>
+    </div>
+</div>

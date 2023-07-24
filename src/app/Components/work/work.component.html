@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="intern-container">
+        <span id="inter-heading">Internships</span>
+        <div class="internship" *ngFor="let intern of internships">
+            <span class="company-name">{{intern.name}}</span>
+            <span class="duration">{{intern.duration}}</span>
+            <span class="experience">{{intern.exp}}</span>
+        </div>
+    </div>
+    <div class="startup">
+        <div class="heading">
+            <img id="echio-img" src="../../../assets/fav2.png" alt="echio">
+            <div class="company">
+                <span id="st-name">echio</span>
+                <span id="role">CTO</span>
+            </div>
+        </div>
+        <span class="exp">
+            I served as the Chief Technology Officer of an upcoming startup Echio Pvt. Ltd. from 2022 to 2023. Echio
+            operates in the influencer marketing field, connecting the social media influencers with the brands for
+            advertising. I lead the development team to make the official company Website and worked with the andriod
+            development.
+        </span>
+    </div>
+</div>
+<div class="project-container">
+    <div class="projects" *ngFor="let project of projects">
+        <img class="project-img" [src]="project.img" alt="title">
+        <div class="content">
+            <span class="title">{{project.title}}</span>
+            <span class="description">{{project.desc}}</span>
+        </div>
+    </div>
+</div>

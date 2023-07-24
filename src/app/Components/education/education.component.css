@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+}
+
+.almas{
+    width: 37vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-right: 1vw;
+    /* border: 4px solid black; */
+    background: linear-gradient(
+        to right,
+        rgb(240, 194, 194),
+        rgb(233, 218, 187)
+    );
+    border-radius: 100px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-container{
+    display: flex;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/* .edu-container:nth-child(2n+1){
+    flex-direction: row;
+}
+
+.edu-container:nth-child(2n){
+    flex-direction: row-reverse;
+} */
+
+.dev-icon{
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 20vw;
+}
+
+.division{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.graduation{
+    width: 18vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    /* padding-top: 2vh; */
+    margin-left: 1vw;
+    /* border: 4px solid black; */
+    background: linear-gradient(
+        to right,
+        rgb(140, 243, 212),
+        rgb(210, 202, 224)
+    );
+    border-radius: 20px 100px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 2.7rem;
+}

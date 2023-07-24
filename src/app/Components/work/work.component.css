@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+
+    .startup{
+        width: 35vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-top: 10vh;
+        margin-left: 1vw;
+        /* border: 4px solid black; */
+        background: linear-gradient(
+            to right,
+            rgb(140, 193, 243),
+            rgb(189, 234, 240)
+        );
+        border-radius: 20px 100px 20px 20px;
+        display: flex;
+        flex-direction: column;
+
+        .heading{
+            display: flex;
+            flex-direction: row;
+            
+            #echio-img{
+                width: 10vw;
+                aspect-ratio: 1;
+            }
+
+            .company{
+                display: flex;
+                flex-direction: column;
+                padding-left: 1vw;
+
+                #st-name{
+                    font-size: 4.5rem;
+                    color: white;
+                    font-style: italic;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                
+                #role{
+                    padding-top: 1rem;
+                    font-size: 1.7rem;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .exp{
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+    }
+
+    .intern-container{
+        width: 23vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+        margin-right: 1vw;
+        /* border: 4px solid black; */
+        background: linear-gradient(
+            to right,
+            rgb(218, 181, 210),
+            rgb(177, 238, 162)
+        );
+        border-radius: 100px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+
+        #inter-heading{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .internship{
+            display: flex;
+            flex-direction: column;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+
+            .company-name{
+                font-size: 2rem;
+                font-weight: 550;
+            }
+
+            .duration{
+                font-size: 1rem;
+                font-weight: 200;
+                font-style: italic;
+            }
+
+            .experience{
+                font-size: 1.2rem;
+                font-weight: 50;
+                text-align: justify;
+            }
+        }
+
+    }
+}
+
+.project-container{
+    width: calc(68vw + 8px);
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    margin-top: 4vh;
+    /* border: 4px solid black; */
+    background: linear-gradient(
+        to right,
+        rgb(150, 228, 160),
+        rgb(253, 222, 197)
+    );
+    border-radius: 20px 20px 100px 100px;
+    display: flex;
+    flex-direction: column;
+
+    .projects{
+        display: flex;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+
+        .project-img{
+            height: 150px;
+            aspect-ratio: 1;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            padding-left: 2vw;
+
+            .title{
+                font-size: 1.8rem;
+            }
+
+            .description{
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    .projects:nth-child(2n){
+        flex-direction: row-reverse;
+
+        .content{
+            align-items: end;
+        }
+    }
+}
+
+
+
